@@ -2,7 +2,7 @@
 
 Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Informática Aplicada Leonardo Leitão, através da plataforma Cod3r. O curso visa capacitar o aluno nas tecnologias de _frontend_ e _backend_, formando uma base para desenvolvedores _Web Fullstack_.
 
-## Tecnologias e linguagens utilizadas:
+## Tecnologias e linguagens utilizadas: :computer:
 
 <ul>
   <li>HTML e  CSS</li>
@@ -20,11 +20,11 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
   <li>MongoDB</li>
 </ul>
 
-## Carga horária
+## Carga horária :clock1:
 
 São quase 500 aulas divididas em 32 capítulos com mais de 75 horas.
 
-### Início do curso
+### Início do curso :calendar:
 
 Curso iniciado em 14/04/2020.
 

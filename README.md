@@ -22,7 +22,7 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 
 ### Carga horária :clock1:
 
-São quase 500 aulas divididas em 32 capítulos com mais de 75 horas.
+São quase 500 aulas divididas em 32 capítulos, com mais de 75 horas.
 
 ### Início do curso :calendar:
 

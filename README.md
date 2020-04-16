@@ -26,7 +26,7 @@ São quase 500 aulas divididas em 32 capítulos, com mais de 75 horas.
 
 ### Início do curso :calendar:
 
-Curso iniciado em 14/04/2020.
+Curso iniciado em 14/04/2020. -Em execução
 
 ### Link para o curso
 

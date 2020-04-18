@@ -1,3 +1,7 @@
+// Apply() e Call() tem a exata mesma utilidade: chamar uma função aplicando o valor de this fornecido, 
+// mais quaisquer outros parâmetros necessários. A diferença é que, em vez de parâmetros separados por vírgula,
+// o apply() recebe os parâmetros adicionais da função em um array.
+
 function getPreco(imposto = 0, moeda = 'R$') {
     return `${moeda} ${this.preco * (1 - this.desc) * (1 + imposto)}`
 }

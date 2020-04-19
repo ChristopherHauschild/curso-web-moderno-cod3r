@@ -5,8 +5,8 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 ## Tecnologias e linguagens utilizadas :computer:
 
 <ul>
+  <li>JavaScript + ESNext</li>
   <li>HTML e  CSS</li>
-  <li>JavaScirpt e ESNext</li>
   <li>Gulp</li>
   <li>Webpack</li>
   <li>jQuery</li>

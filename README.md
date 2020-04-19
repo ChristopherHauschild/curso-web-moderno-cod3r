@@ -31,4 +31,4 @@ Curso iniciado em 14/04/2020. -Em execução
 ### Links para infos do curso
 
 Maiores informações podem ser encontradas no site da <a href='https://www.cod3r.com.br/courses/web-moderno'>Cod3r</a>.
-O repositório original do curso pode ser encontrado em https://github.com/cod3rcursos/web-moderno
+O repositório original do curso pode ser encontrado neste <a href='https://github.com/cod3rcursos/web-moderno'>link</a>

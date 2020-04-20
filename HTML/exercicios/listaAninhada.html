@@ -1,0 +1,52 @@
+<h1> Lista Aninhada - Projeto </h1>
+
+<ul class="tree">
+    <li>
+        <span wm-folder>Backend</span>
+        <ul>
+            <li>
+                <span wm-folder>app</span>
+                <ul>
+                    <li>produto.js</li>
+                    <li>usuario.js</li>
+                    <li>venda.js</li>
+                </ul>
+            </li>
+            <li>
+                <span wm-folder>config</span>
+                <ul>
+                    <li>banco.js</li>
+                    <li>rota.js</li>
+                    <li>servidor.js</li>
+                </ul>
+            </li>
+        </ul>
+        <li>
+            <span wm-folder>Frontend</span>
+            <ul>
+                <li>
+                    <span wm-folder>public</span>
+                    <ul>
+                        <li>app.css</li>
+                        <li>app.js</li>
+                        <li>index.html</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </li>
+</ul>
+
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+
+<script>
+    // Seleciono todos os elementos marcados com a propriedade entre ()
+    document.querySelectorAll('[wm-folder]').forEach(folder => {// Percorro estrutura tratando as pastas
+        folder.onclick = function(e) { // Folder representam as pastas marcados com wm-folder
+            const ul = folder.nextElementSibling // Pega o próximo elemento após as pastas marcadas com wm-folder
+            const displayAtualUl = ul.style.display
+            ul.style.display = displayAtualUl === 'none' ? 'block' : 'none'
+            // Se display for igual a none(não visível), muda para block(vísivel), se não assume none(não visível)
+        }
+    }) // Para acessar elementos com certa propriedade se usa '[]'
+</script>

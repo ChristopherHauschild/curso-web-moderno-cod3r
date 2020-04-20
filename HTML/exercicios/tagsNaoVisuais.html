@@ -1,0 +1,41 @@
+<h1> Tags Não Visuais </h1>
+
+<!-- Tags Semânticas...
+
+section -> agrupamento temático de conteúdo
+article -> difere do conteúdo geral, tem inicio, meio e fim em si mesmo - auto-contido
+header -> cabeçalho do documento
+footer -> rodapé do documento
+nav -> agrupamento de links de navegação
+aside -> ao lado (ex: sidebar), adendo/observação
+details -> detalhes de algum conteúdo, pode ser exibido ou escondido
+
+As Famosas...
+
+div -> divisão ou seção, por padrão o display é block
+span -> agrupamento de elementos inline 
+
+-->
+<!-- Ocupam linhas diferentes -->
+<div id="area1"> Área 1 </div>
+<div id="area2"> Área 2 </div>
+
+<p>
+    Esse é um texto com <span class="diferente">muitas palavras</span> e ponto.
+</p>
+
+<style>
+    div {
+        display: inline;
+    }
+    span {
+        display: block;
+    }
+    .diferente{
+        font-weight: bold;
+        font-size: 30px;
+        color: chocolate;
+    }
+
+</style>
+

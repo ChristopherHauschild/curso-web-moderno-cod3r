@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unidades #01</title>
+    <style>
+        .unidades-absolutas {
+            position: absolute;
+            font-size: 40px;
+            padding: 20px;
+            border: solid 5px #222;
+            margin: 30px;
+            width: 4cm; /* pouco usado */
+            height: 20mm; /* pouco usado */
+            top: 150px;
+            /* considera top e left por conta do position absolute */
+            left: 200px;
+        }
+
+        .unidades-relativas {
+            position: absolute;
+            font-size: 4em; /* 4x o tamanho da fonte do browser */
+            /* se aumentar fonte do browser aumenta fonte relativa */
+            padding: 5%;
+            border: solid 1vh #222; /* 1vh -> 1 cem avos da página */
+            margin: .8%;
+            width: 20vh;
+            height: 15vh;
+            bottom: 5%;
+            right: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="unidades-absolutas">Opa!</div> <!-- px, cm, mm-->
+    <div class="unidades-relativas">Epa!</div> <!-- vh, vm, vmin, vmax, rem, em -->
+</body>
+
+</html>

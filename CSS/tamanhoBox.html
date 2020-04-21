@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tamanho Box</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 45px;
+        }
+
+        div {
+            background-color: deepskyblue;
+            width: 100%; /*Por conta do padding e border extrapola limite de largura */
+            height: 300px;
+            padding: 100px;
+            /* border: solid 20px; */
+            /* box-sizing: border-box; -> border, content, padding passam a fazer parte do width definida */
+            /* box-sizing: content-box; -> conteúdo interno do box tem width definido */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        O tamanho do Box é...
+    </div>
+</body>
+</html>

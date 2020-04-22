@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Acessando Atributos #02</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+</head>
+
+<body class='conteudo exercicio'>
+    <div>
+        <label for="compras">Compras</label>
+        <ul id="compras" destino='escritório' data-urgencia="5">
+            <li>Café</li>
+            <li>Água</li>
+            <li>Copo Descartável</li>
+        </ul>
+    </div>
+    <script>
+        const lista = document.querySelector('div ul[destino="escritório"') // == #compras
+        console.log('Elemento "ul".........')
+        console.log('childNodes', lista.childNodes)
+        console.log('destino', lista.destino) // não acessa pois é um atributo personalizado
+        console.log('getAttribute', lista.getAttribute('destino'))
+        console.log('hasAttribute', lista.hasAttribute('destino'))
+        lista.setAttribute('destino', 'empresa') // valor de destino passa a ser empresa
+        lista.setAttribute('status', 'aberto')
+        lista.removeAttribute('destino')
+        console.log(lista.dataset) // evitar padrão data-
+        console.log(lista.dataset.urgencia)
+        console.log(lista.getAttribute('data-urgencia')) // para acessar atributo com 'data-' deve ser através de string
+
+        // cuidados
+        const label = document.querySelector('label')
+        console.log(label.for) // não acessa valor pois for é reservado da linguagem
+        console.log(label.htmlFor) // através de htmlFor é possível acessar valor
+        console.log(label.getAttribute('for')) // através de string é possível acessar valor
+
+    </script>
+</body>
+
+</html>

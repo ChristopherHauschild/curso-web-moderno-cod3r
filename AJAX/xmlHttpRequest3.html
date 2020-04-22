@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>XMLHttpRequest #03</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+</head>
+
+<body class="conteudo exercicio">
+    <h1>Estados</h1>
+
+    <script>
+        function ajax(config) {
+            /* XMLHttpRequest -> 
+                enviar requisições HTTP ou HTTPS diretamente para um servidor web e carrega
+                os dados de resposta do servidor diretamente de volta ao script.
+            */
+            const xhr = new XMLHttpRequest()
+
+            xhr.open(config.metodo, config.url, true) // metodo -> url -> assincrono
+            // onreadystatechange -> evento chamado sempre que status da requisição mudar
+            xhr.onreadystatechange = e => {
+                if(xhr.readyState === 4) { // quando requisição está pronta
+                    if(xhr.status === 200) {
+                        config.sucesso(xhr.responseXML) // retorna objeto com parse, documento convertido
+                    } else if(xhr.status >= 400) {
+                        config.erro({
+                            codigo: xhr.status,
+                            texto: xhr.statusText
+                        })
+                    }
+                }
+            }
+
+            xhr.send()
+        }
+
+        ajax({
+            url: "dados/estados.xml",
+            metodo: "get",
+            sucesso(resposta) {
+                const estados = resposta.getElementsByTagName('estado')
+                const itens = Array.from(estados).reduce(
+                    // const estados convertida para array e convertida em uma string
+                    // string possui acumulador formado por elementos do tipo li
+                    (html, estado) => html + `<li>${estado.attributes.nome.value}, ${estado.attributes.sigla.value}</li>`, ''
+                )
+                document.body.insertAdjacentHTML('beforeend', `<ul>${itens}</ul>`)
+            },
+            erro(e) {
+                const msg = document.createTextNode(`${e.codigo}: ${e.texto}`)
+                document.body.appendChild(msg)
+            }
+        })
+    </script>
+</body>

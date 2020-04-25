@@ -6,13 +6,13 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-    mode: modoDev ? 'development' : 'production',
-    entry: './src/index.js',
-    devServer: {
+    mode: modoDev ? 'development' : 'production', // Define em que modo será executado
+    entry: './src/index.js',  // Define a pasta de entrada que irá referenciar as demais
+    devServer: { // Cria pasta em memória e executa servidor
         contentBase: './build',
         port: 9000,
     },
-    optimization: {
+    optimization: { // Minificadores
         minimizer: [
             new UglifyJsPlugin({
                 cache: true,
@@ -22,15 +22,15 @@ module.exports = {
             new OptimizeCSSAssetsPlugin({})
         ]
     },
-    output: {
+    output: { // Pasta de saída gera arquivo app.js
         filename: 'app.js',
         path: __dirname + '/build'
     },
     plugins: [
-        new MiniCssExtractPlugin({ filename: 'estilo.css' }),
+        new MiniCssExtractPlugin({ filename: 'estilo.css' }), // Extraí css
         new CopyWebpackPlugin([
-            { context: 'src/', from: '**/*.html' },
-            { context: 'src/', from: 'imgs/**/*' }
+            { context: 'src/', from: '**/*.html' }, // Copia pastas com arquivos html para pasta build
+            { context: 'src/', from: 'imgs/**/*' } // Copia pasta de imagens para pasta build
         ])
     ],
     module: {

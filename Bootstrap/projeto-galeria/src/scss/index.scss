@@ -1,0 +1,11 @@
+// Será importado pelo index.js para fazer conexão com arquivos SASS
+
+// "~" -> irá procurar arquivo dentro de node_modules
+@import "~bootstrap/scss/bootstrap"; 
+
+// sobrescrever variável para definir repositório de onde irá tirar as fontes
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+// importar arquivo custom na mesma pasta
+@import "custom";

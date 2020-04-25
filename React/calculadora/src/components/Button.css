@@ -1,0 +1,34 @@
+:root {
+    --bg-button: #f0f0f0; /* Criando variável na raíz | Necessário '--' */
+    --border-button: solid 1px #888;
+}
+
+.button {
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none; /* Remover contorno ao clicar no botão */
+}
+
+.button:active { /* Quando ativo botão assume estas propriedades */
+    background-color: #ccc; 
+}
+
+.button.double { /* Classe para atribuir aos botões que ocupam 02 colunas */
+    grid-column: span 2;
+}
+
+.button.triple { /* Classe para atribuir aos botões que ocupam 03 colunas */
+    grid-column: span 3;
+}
+
+.button.operation { /* Classe para atribuir aos botões de operação */
+    background-color: #fa8231;
+    color:  #fff;
+}
+
+.button.operation:active { /* Quando ativos botões de operação assumem estas propriedades */
+    background-color: #fa8231cc;
+}

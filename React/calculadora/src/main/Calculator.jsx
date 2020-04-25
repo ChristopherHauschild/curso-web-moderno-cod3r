@@ -29,6 +29,8 @@ export default class Calculator extends Component {
 
     setOperation(operation) {
 
+        
+
         if (this.state.current === 0) { // Mexer em current para pegar segundo valor do vetor
             this.setState({ operation, current: 1, clearDisplay: true }) // Quando recebe uma operação troca para o segundo elemento do vetor
         } else { // Caso current não seja mais o 0

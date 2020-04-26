@@ -16,6 +16,11 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 </ul>
 <ul style="list-style: none;">
   <li> - Ajax</li>
+  <li> -Bootstrap</li>
+</ul>
+ <ul>
+  <li> - Nodejs</li>
+  <li> -  Ajax</li>
   <li> - React</li>
   <li> - Vue JS</li>
   <li> - Express</li>

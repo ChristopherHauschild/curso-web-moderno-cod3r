@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aplicando Estilo</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <script src="/js/vue.min.js"></script>
+    <style>
+        .vermelho {
+            background-color: red;
+        }
+    </style>
+</head>
+<body class="exercicio">
+    <!-- Se falso passa a ser verdadeiro | Se verdadeiro passa a ser falso -->
+    <div id="app" @click="aplicarCor = !aplicarCor"
+    :class="{vermelho: aplicarCor}"> <!-- nome da classe | valor booleano que define se classe vai ser aplicada ou não -->
+        Teste
+    </div>
+
+    <script>
+        new Vue({
+            el: "#app",
+            data: { // data -> dados associados à instância
+                aplicarCor: false
+            }
+        })
+    </script>
+</body>
+</html>

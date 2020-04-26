@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Componente</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <script src="/js/vue.min.js"></script>
+</head>
+
+<body class="exercicio">
+
+    <div id="app">
+        <contador nome="Contador-1"></contador>
+        <contador nome="Contador-2"></contador>
+        <contador nome="Contador-3"></contador>
+    </div>
+
+    <script>
+        // param1 -> nome do componente | param2 -> objeto com propriedades
+        Vue.component('contador', {
+            props: ['nome'],
+            data: function () { // data em componente precisa ser função | retorna um novo objeto
+                return {
+                    contador: 0
+                }
+            },
+            methods: {
+                add() {
+                    this.contador++
+                }
+            },
+            template: `
+                <div> 
+                <span> {{ nome }}: {{ contador }} <span>
+                <hr />
+                <button @click="add">+1</button>
+                <button @click="contador --">-1</button>
+                </div>
+            `
+        })
+
+        new Vue({
+            el: "#app"
+        })
+    </script>
+</body>
+
+</html>

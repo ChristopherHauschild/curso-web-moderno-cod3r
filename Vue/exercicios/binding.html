@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Binding</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <script src="/js/vue.min.js"></script>
+</head>
+<body class="exercicio">
+    <div id="app">
+     
+        <p>{{ link }}</p>
+        <p><a href="{{ link }}">Canal 1</a></p>
+        
+        <!-- v-bind -> diretiva que interpola conteúdo da propriedade -->
+        <!-- v-bind -> não utiliza double mustache -->
+        <p><a v-bind:href="link"> Canal 2</a></p>
+        <!-- Forma reduzida de resolver propriedade com o bind -->
+        <p><a :href="link"></a>Canal 3</p>
+
+        <p>
+            <!-- v-model -> atualização em duas direções -->
+            <!-- v-model -> informações sincronizadas -->
+            <input type="text" v-model="nome">
+            <span> {{ nome }} </span>
+        </p>
+
+    </div>
+    <script>
+        new Vue({
+            // Linkar com elemento do Template
+            el: "#app",
+            data: { // data -> dados associados à instância
+                nome: 'Maria',
+                link: "https://youtube.com/cod3rcursos"
+            },
+            watch: {
+                // Sempre que nome for alterado
+                nome(novoValor) {
+                    console.log(novoValor.toUpperCase())
+                }
+            }
+        })
+    </script>
+</body>
+</html>

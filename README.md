@@ -4,8 +4,7 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 
 ## Tecnologias e linguagens utilizadas :computer:
 
-<div style="display: flex; align-items: center; justify-content: center;">
-<ul style="list-style: none; margin-top: 35px;">
+<ul>
   <li> - JavaScript + ESNext</li>
   <li> - HTML e  CSS</li>
   <li> - Gulp</li>
@@ -13,8 +12,6 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
   <li> - jQuery</li>
   <li> - Bootstrap</li>
   <li> - Nodejs</li>
-</ul>
-<ul style="list-style: none;">
   <li> -  Ajax</li>
   <li> - React</li>
   <li> - Vue JS</li>
@@ -22,7 +19,7 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
   <li> - MySQL</li>
   <li> - MongoDB</li>
 </ul>
-</div>
+
 
 ### Carga horária :clock1:
 

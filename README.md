@@ -4,9 +4,7 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 
 ## Tecnologias e linguagens utilizadas :computer:
 
-<table>
-    <tr>
-      <ul>
+ <ul>
   <li>JavaScript + ESNext</li>
   <li>HTML e  CSS</li>
   <li>Gulp</li>
@@ -21,28 +19,7 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
   <li>MySQL</li>
   <li>MongoDB</li>
 </ul>
-    </tr>
-    <tr>
-      <ul>
-  <li>JavaScript + ESNext</li>
-  <li>HTML e  CSS</li>
-  <li>Gulp</li>
-  <li>Webpack</li>
-  <li>jQuery</li>
-  <li>Bootstrap</li>
-  <li>Nodejs</li>
-  <li>Ajax</li>
-  <li>React</li>
-  <li>Vue JS</li>
-  <li>ExpressJS</li>
-  <li>MySQL</li>
-  <li>MongoDB</li>
-</ul>
-    </tr>
-</table>
-
-
-
+   
 ### Carga horária :clock1:
 
 São quase 500 aulas divididas em 32 capítulos, com mais de 75 horas.

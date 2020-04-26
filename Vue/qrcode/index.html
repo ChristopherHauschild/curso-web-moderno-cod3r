@@ -10,9 +10,37 @@
 </head>
 
 <body>
+    <div id="app">
+        <h1>{{ title }}</h1>
+        <div>
+            <!-- :value -> passa a monitorar/alterar valor de text  -->
+            <input type="text" size="25" placeholder="Digite para gerar..."
+            v-model="text">
+            <!-- v-model -> atualização em duas direções -->
+            <!-- v-model -> informações sincronizadas -->
+        </div>
+        <!-- :src -> passa a monitorar/alterar valor de newQRCode -->
+        <div v-if="text" class="output">
+            <img :src="newQRCode" alt="QRCode">
+        </div>
+
+    </div>
 
     <script>
-        // ...
+        new Vue({
+            el: '#app',
+            data: {
+                title: 'Gerador QRCode',
+                text: 'https://www.cod3r.com.br',
+                qrcode: new QRious({ size: 300 })
+            },
+            computed: {
+                newQRCode() {
+                    this.qrcode.value = this.text
+                    return this.qrcode.toDataURL()
+                }
+            }
+        })
     </script>
 </body>
 

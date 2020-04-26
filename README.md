@@ -5,20 +5,8 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 ## Tecnologias e linguagens utilizadas :computer:
 
 <table>
-  <thead>
     <tr>
-      <th> Tecnologias </th>
-      <th> Projeto </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> JavaScritp + ESnext </td>
-    </tr>
-  </tbody>
-</table>
-
-<ul>
+      <ul>
   <li>JavaScript + ESNext</li>
   <li>HTML e  CSS</li>
   <li>Gulp</li>
@@ -33,6 +21,13 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
   <li>MySQL</li>
   <li>MongoDB</li>
 </ul>
+    </tr>
+    <tr>
+      <td> JavaScritp + ESnext </td>
+    </tr>
+</table>
+
+
 
 ### Carga horária :clock1:
 

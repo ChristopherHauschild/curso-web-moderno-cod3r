@@ -23,7 +23,21 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 </ul>
     </tr>
     <tr>
-      <td> JavaScritp + ESnext </td>
+      <ul>
+  <li>JavaScript + ESNext</li>
+  <li>HTML e  CSS</li>
+  <li>Gulp</li>
+  <li>Webpack</li>
+  <li>jQuery</li>
+  <li>Bootstrap</li>
+  <li>Nodejs</li>
+  <li>Ajax</li>
+  <li>React</li>
+  <li>Vue JS</li>
+  <li>ExpressJS</li>
+  <li>MySQL</li>
+  <li>MongoDB</li>
+</ul>
     </tr>
 </table>
 

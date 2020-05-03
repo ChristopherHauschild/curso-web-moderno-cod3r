@@ -25,10 +25,6 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 
 São quase 500 aulas divididas em 32 capítulos, com mais de 75 horas.
 
-### Início do curso :calendar:
-
-Curso iniciado em 14/04/2020. -Em execução
-
 ### Links para infos do curso
 
 Maiores informações podem ser encontradas no site da <a href='https://www.cod3r.com.br/courses/web-moderno'>Cod3r</a>.

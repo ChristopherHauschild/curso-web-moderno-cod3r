@@ -3,7 +3,7 @@
 Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Informática Aplicada Leonardo Leitão, através da plataforma Cod3r. O curso visa capacitar o aluno nas tecnologias de _frontend_ e _backend_, formando desenvolvedores _Web Fullstack_ aptos ao mercado de trabalho. Para isso, tem como objetivo proporcionar o domínio dos úlltimos recursos de HTML, CSS, Javascript e vários frameworks, além de compreensão dos paradigmas de programação usados na Web Moderna: Funcional, Orientação a Objeto entre outros, aliando tudo isso a boas práticas de programação e padrões de projeto.
 
 <p align="center">
- <img width="900px" src="https://github.com/ChristopherHauschild/curso-web-moderno-cod3r/blob/master/logoCD.png?raw=true" />
+ <img width="900px" src="https://github.com/ChristopherHauschild/curso-web-moderno-cod3r/blob/master/logoC3.png?raw=true" />
 </p>
 
 ## Tecnologias e linguagens utilizadas :computer:

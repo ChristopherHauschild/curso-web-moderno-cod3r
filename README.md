@@ -20,14 +20,13 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
   <li> MongoDB</li>
 </ul>
 
+<hr>
 
 ### Carga horária :clock1:
 
 São quase 500 aulas divididas em 32 capítulos, com mais de 75 horas.
 
-### Início do curso :calendar:
-
-Curso iniciado em 14/04/2020. -Em execução
+<hr>
 
 ### Links para infos do curso
 

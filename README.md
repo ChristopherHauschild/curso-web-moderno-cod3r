@@ -9,7 +9,7 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
 
 ## Aplicações e projetos desenvolvidos: :rocket:
 
-### <p align="center"><a href="https://github.com/ChristopherHauschild/flappy-bird-project">Flappy Bird<a> &nbsp; | &nbsp; <a href="https://github.com/ChristopherHauschild/qr-code-generator-vue.js">QR Code Generator</a></p>
+### <p align="center"><a href="https://github.com/ChristopherHauschild/flappy-bird-project">Flappy Bird<a> &nbsp; | &nbsp; <a href="https://github.com/ChristopherHauschild/qr-code-generator-vue.js">QR Code Generator</a> &nbsp; | &nbsp; <a href="https://github.com/ChristopherHauschild/app-monty-hall-vue.js">Monty Hall</a> &nbsp; | &nbsp; <a href="https://github.com/ChristopherHauschild/projeto-calculadora-react">Calculator (React)</a> &nbsp; | &nbsp; <a href="https://github.com/ChristopherHauschild/projeto-calculadora-vueJS">Calculator (Vue)</a> &nbsp; | &nbsp; <a href="https://github.com/ChristopherHauschild/projeto-base-conhecimento-cod3r">Base de Conhecimento</a></p>
 
 ## Tecnologias e linguagens utilizadas :computer:
 

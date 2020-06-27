@@ -7,6 +7,10 @@ Curso Web Moderno com JavaScript + Projetos disponibilizado pelo mestre em Infor
  <img width="900px" src="https://github.com/ChristopherHauschild/curso-web-moderno-cod3r/blob/master/logoC3.png?raw=true" />
 </p>
 
+## Aplicações e projetos desenvolvidos: :rocket:
+
+### <p align="center"><a href="https://github.com/ChristopherHauschild/flappy-bird-project">Flappy Bird<a></p>
+
 ## Tecnologias e linguagens utilizadas :computer:
 
 <ul>
